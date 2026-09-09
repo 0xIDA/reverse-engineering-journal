@@ -7,6 +7,7 @@ Working journal for everything we reverse, solve, and learn. Each solved target 
 ```
 entries/        one folder per target — the full writeup
   _template/    copy this folder to start a new entry
+    ida/         local IDA databases (.i64/.idb) — never committed
 notes/          target-agnostic lessons & techniques
   _template.md  copy this file to start a new note
 cheatsheets/    quick reference: file formats, opcodes, calling conventions, tool quirks
@@ -16,7 +17,7 @@ resources/      links, papers, tools worth remembering
 ## Conventions
 
 - **Entry folder:** `entries/<target-name>/` — kebab-case, stable, no date in the name (dates live in the header table). One target, one folder, updated in place across sessions.
-- **Binaries stay out of git.** `artifacts/` in each entry is gitignored — dumps, packed samples, IDA/Ghidra databases stay local. Only knowledge is committed: writeups, notes, scripts.
+- **Binaries stay out of git.** `artifacts/` (dumps, packed samples) and `ida/` (IDA/Ghidra databases) in each entry are gitignored — they stay local. Only knowledge is committed: writeups, notes, scripts.
 - **Scripts are knowledge.** Anything reusable we wrote during a session (IDAPython, Ghidra scripts, patchers, keygens) goes in the entry's `scripts/` and gets committed.
 - **Dead ends get written down.** A hypothesis that didn't pan out and *why* is often more valuable than the solution.
 - **Notes link back.** A note distilled from an entry links to its source entry, and the entry links forward to the note.

@@ -2,6 +2,10 @@
 entries/*/artifacts/*
 !entries/*/artifacts/.gitkeep
 
+# IDA databases — local only
+entries/*/ida/*
+!entries/*/ida/.gitkeep
+
 # Raw samples that slip into the tree
 *.exe
 *.dll
