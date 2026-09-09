@@ -1,0 +1,35 @@
+# Binaries & dumps — the journal keeps knowledge, not payloads
+entries/*/artifacts/*
+!entries/*/artifacts/.gitkeep
+
+# Raw samples that slip into the tree
+*.exe
+*.dll
+*.sys
+*.bin
+*.so
+*.dylib
+*.apk
+*.msi
+
+# Disassembler/profiler databases
+*.id0
+*.id1
+*.id2
+*.idb
+*.i64
+*.nam
+*.til
+*.gpr
+*.rep
+*.gzf
+*.upx
+
+# Core dumps & large captures
+*.dmp
+*.pcap
+*.pcapng
+
+# OS noise
+Thumbs.db
+.DS_Store
