@@ -6,7 +6,7 @@
 | Last touched | 2026-09-10 |
 | Status | solved |
 | Platform | Linux x86-64, dynamically linked, glibc 2.34+ |
-| Tooling | IDA (MCP-driven), WSL kali (verification) |
+| Tooling | IDA, WSL kali (verification) |
 | Source | [crackmes.one — What password???](https://crackmes.one/crackme/6a83e2f205a9e80a90724421) |
 
 ## Summary
@@ -34,7 +34,7 @@ for ( i = 2; ; i += 2 ) {
 
 ## Process
 1. `strings`-style pass (Python) → messages + encoded-looking `.rodata` blob; identified ELF64, NASM, unstripped.
-2. Drove IDA over MCP (`server_health` → `list_funcs` → `decompile $_94_1_`).
+2. Loaded into IDA and decompiled `main` at `0x401150` — small hand-written NASM, reads straight through.
 3. Decompiled check is self-explanatory; key insight from a decompiler type hint: the accumulator is typed `char` → arithmetic wraps mod 256, making k=14 produce `\n`.
 4. Derived password from `pw` bytes; verified against the real binary under WSL kali: `Correct! You won!`.
 
