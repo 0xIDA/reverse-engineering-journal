@@ -42,7 +42,7 @@ Thumbs.db
 .DS_Store
 
 # Explicitly shared IDA databases
-!entries/what-password/ida/what_password.i64
+!entries/*/ida/*.i64
 
 # Local wiki publish clone
 wiki/.publish/
