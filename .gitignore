@@ -25,6 +25,9 @@ entries/*/ida/*
 *.nam
 *.til
 *.gpr
+
+# Loose drop-zone binaries (live in entries/<target>/artifacts/)
+/what_password
 *.rep
 *.gzf
 *.upx
