@@ -8,3 +8,4 @@ One folder per target in [`entries/`](https://github.com/0xIDA/reverse-engineeri
 | [level1easy](https://github.com/0xIDA/reverse-engineering-journal/tree/main/entries/level1easy) | solved | `password` | [Lacks on crackmes.one](https://crackmes.one/user/Lacks) |
 | [level2](https://github.com/0xIDA/reverse-engineering-journal/tree/main/entries/level2) | solved | `reverse` | [Lacks on crackmes.one](https://crackmes.one/user/Lacks) |
 | [level3](https://github.com/0xIDA/reverse-engineering-journal/tree/main/entries/level3) | solved | keygen: `serial = Σsigned(username) * 0x539 ^ 0x5A5A` | [Lacks on crackmes.one](https://crackmes.one/user/Lacks) |
+| [level4](https://github.com/0xIDA/reverse-engineering-journal/tree/main/entries/level4) | solved | `admin` / `64083` → flag `Solved!` | [Lacks on crackmes.one](https://crackmes.one/user/Lacks) |
