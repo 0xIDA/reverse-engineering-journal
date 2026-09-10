@@ -7,7 +7,7 @@ Working journal for everything we reverse, solve, and learn. Each solved target 
 ```
 entries/        one folder per target — the full writeup
   _template/    copy this folder to start a new entry
-    ida/         local IDA databases (.i64/.idb) — never committed
+    ida/         IDA workspace: sample + annotated .i64 (committed)
 notes/          target-agnostic lessons & techniques
   _template.md  copy this file to start a new note
 cheatsheets/    quick reference: file formats, opcodes, calling conventions, tool quirks
