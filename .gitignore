@@ -46,3 +46,7 @@ Thumbs.db
 
 # Local wiki publish clone
 wiki/.publish/
+
+# Local agent scaffolding — never published
+AGENTS.md
+.omp/
