@@ -43,3 +43,6 @@ Thumbs.db
 
 # Explicitly shared IDA databases
 !entries/what-password/ida/what_password.i64
+
+# Local wiki publish clone
+wiki/.publish/

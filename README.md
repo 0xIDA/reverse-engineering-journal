@@ -12,6 +12,7 @@ notes/          target-agnostic lessons & techniques
   _template.md  copy this file to start a new note
 cheatsheets/    quick reference: file formats, opcodes, calling conventions, tool quirks
 resources/      links, papers, tools worth remembering
+wiki/           markdown source for the GitHub wiki tab
 ```
 
 ## Conventions
