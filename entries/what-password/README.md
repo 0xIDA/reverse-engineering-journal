@@ -7,6 +7,7 @@
 | Status | solved |
 | Platform | Linux x86-64, dynamically linked, glibc 2.34+ |
 | Tooling | IDA (MCP-driven), WSL kali (verification) |
+| Source | [crackmes.one — What password???](https://crackmes.one/crackme/6a83e2f205a9e80a90724421) |
 
 ## Summary
 Cyberpenguin challenge "What password???": find the password `what_password` accepts. Hand-written NASM (`final1.asm`), unstripped, ships DWARF debug info — labels survive: `wrong_msg`, `right_msg`, `input`, `loop_1`, `pw`.
